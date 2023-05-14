@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #050507;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/* h1タグ用 */
+.site-title {
+  font-size: 6.25rem;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  margin: 100px 0;
+}
+
+/* h2タグ用 */
+.section-title {
+  font-size: 3.75rem;
+  border-bottom: solid 1px #fff;
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  margin-bottom: 45px;
+}
+
+/* コンテンツ幅を設定するための共通クラス */
+.wrapper {
+  max-width: 800px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+
+/* MainとFooter全体を囲むクラス */
+.container {
+  background: #050507;
+  color: #fff;
+  text-align: center;
+}
